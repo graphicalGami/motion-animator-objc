@@ -18,9 +18,9 @@
 #import <QuartzCore/QuartzCore.h>
 
 #ifdef IS_BAZEL_BUILD
-#import <MotionInterchange/MotionInterchange.h>
+#import <MotionInterchange.h>
 #else
-#import <MotionInterchange/MotionInterchange.h>
+#import <MotionInterchange.h>
 #endif
 
 #import "MDMAnimatableKeyPaths.h"

@@ -19,11 +19,11 @@
 #import <UIKit/UIKit.h>
 
 #import "CATransaction+MotionAnimator.h"
-#import "private/CABasicAnimation+MotionAnimator.h"
-#import "private/MDMAnimationRegistrar.h"
-#import "private/MDMUIKitValueCoercion.h"
-#import "private/MDMBlockAnimations.h"
-#import "private/MDMDragCoefficient.h"
+#import "CABasicAnimation+MotionAnimator.h"
+#import "MDMAnimationRegistrar.h"
+#import "MDMUIKitValueCoercion.h"
+#import "MDMBlockAnimations.h"
+#import "MDMDragCoefficient.h"
 
 @implementation MDMMotionAnimator {
   NSMutableArray *_tracers;
